@@ -215,13 +215,76 @@
         <div class="prima-part">
     <div class=" cont-foot">
         <h1>Come as you are</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, laborum? Minima magnam officiis ab pariatur atque ipsa deserunt, impedit in assumenda a neque eius consequuntur cupiditate, voluptatum repudiandae cumque qui.
-        Sed totam ratione omnis doloribus excepturi voluptatum provident necessitatibus nostrum eius eveniet! Reiciendis, quia reprehenderit. Similique rerum inventore vel praesentium doloribus. Eos, repellendus. Quia odio, minus blanditiis autem accusantium exercitationem!
-        Culpa at quam architecto quae magnam totam recusandae pariatur nemo consequuntur, natus, iure dolores fuga fugit, corrupti eveniet magni adipisci! Suscipit totam similique vitae esse tempora quae iure sed asperiores?</p>
+        <p>Masterstudy used is an excellent workshop whether you come as a counselor, advisor, administrator, or faculty member. I am going home
+            empowered. I am looking forward to attending the On Course Masterstudy National Conference next year and faciliting the use of this 
+            excellent retention/student secces course at my college.
+        </p>
         <h3>Tim Sab</h3>
         <p>General Developer, Stylemix Themes</p>
     </div>
-  </div>
+
+    <div class="container cont-finale">
+            <div class="firstsek">
+                <h2>About</h2>
+                <p><a href="http://">Masterstudy</a> is Education WordPress theme featured by Learning Management System (LMS)
+                for online education. <br>
+                Developed by <a href="http://">StylemixThemes.</a></p> 
+                <div class="secparte">
+                    <a href="http://">?</a>
+                    <a href="http://">?</a>
+                    <a href="http://">?</a>
+                </div>          
+            </div>
+
+            <div class="secondsek">
+                <h2>Contact</h2>
+                <p>USA, California 20, First Avenue,<br> California</p>
+                <p>Tel.:+1 212 458 300 32 <br>
+                    Fax:+212 375 24 14
+                </p>
+                
+                <a href="http://">info@masterstudy.com</a>
+            </div>
+
+
+            <div class="thirdsek">
+                <h2>Pages</h2>
+                <div class="d-flex">
+                    <ul>
+                        <li>Blog</li>
+                        <li>Home</li>
+                        <li>Shortcodes</li>
+                    </ul>
+
+                    <ul>
+                        <li>Courses</li>
+                        <li>Membership A...</li>
+                        <li>Typography</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="fourthsek">
+                <h2>Blog</h2>
+                <div class="d-flex">
+                    <img src="@/assets/img/photo-1517520287167-4bbf64a00d66-150x150.jpeg" alt="">
+                    <div>
+                        <p>Our main target is to "Developing Yourself as a Leader"</p>
+                        <p style="color:gray">--August 9, 2018</p>
+                    </div>
+                </div>
+
+                <div class="d-flex">
+                    <img src="@/assets/img/photo-1490376840453-5f616fbebe5b-150x150.jpeg" alt="">
+                    <div>
+                        <p>Those Other College Expenses You Aren't Thinking About</p>
+                        <p style="color:gray">--June 3, 2105</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
   </div>
  
     
@@ -618,14 +681,96 @@ export default {
 .prima-part{
     background-image: url(../assets/img/brooke-cagle-224821-unsplash-1-1920x700.jpg);
     height: 700px;
+    position: absolute;
 }
 .cont-foot{
+  position: relative;
   background-color: white;
-  padding-top: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 6rem;
   margin-right: 50rem;
-  margin-left: 30rem;
+  margin-left: 20rem;
   border: 2px solid white;
+  margin-top: 9rem;
 }
-/* non capisco perche il container non mi si stacca dal toop*/ 
+.cont-foot h3{
+    font-size: 20px;
+    margin-top: 2rem;
+}
 
+.cont-foot h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.cont-finale{
+        margin-top: 150px;
+        display: flex;
+        justify-content: space-between;
+}
+
+.cont-finale .firstsek{
+    width: 25%;
+    padding: 0 1rem;
+}
+
+.cont-finale .secondsek{
+    width: 25%;
+    padding: 0 1rem;
+}
+
+.cont-finale .thirdsek{
+    width: 25%;
+    padding: 0 1rem;
+}
+
+.cont-finale .fourthsek{
+    width: 25%;
+    padding: 0 1rem;
+}
+
+.cont-finale h2{
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+
+.firstsek .secparte a{
+    margin-right: 1rem;
+}
+
+.firstsek a{
+    text-decoration: none;
+}
+
+.firstsek p{
+    font-size: 14px;
+}
+
+.secondsek p{
+    font-size: 14px;
+}
+
+.secondsek a{
+    text-decoration: none;
+    color: rgb(176, 175, 175);
+}
+
+.thirdsek ul li{
+    margin-bottom: 1rem;
+    font-size: 14px;
+    margin-left: -15px;
+    margin-right: 25px;
+    color: gray;
+}
+
+.fourthsek p{
+    margin-left: 1rem;
+    font-size: 14px;
+}
+
+.fourthsek img{
+    height: 100px;
+}
 </style>

@@ -48,10 +48,10 @@
                 </div>
                </div>
                <a href="">Become an Istructor</a>
-               <a href="">For Enterprises</a>
+               <a href="" class="forenter">For Enterprises</a>
                <a href="">Log in</a>
                <button class="butt">SING UP</button>
-               <div>?</div>
+               <a href="http://">?</a>
             </div>
 </div>
 
@@ -89,9 +89,20 @@ export default {
  }
  .butt{
    border-radius: 50px;
-   padding: 0 2rem;
-   background-color: blue;
+   padding: 0rem 2rem;
+   background-color: #195EC8;
    color: white;
    border: 0px;
+   height: 50px;
+   margin-left: -60px;
+   margin-right: -50px;
+ }
+
+ .seconda-sez a{
+   margin: auto 0;
+ }
+
+ .seconda-sez .forenter{
+   margin-left: -70px;
  }
 </style>
